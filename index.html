@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripMe - Explore o Mundo</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Playwrite+HU:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="#tripme">TripMe</a>
+        <a href="#destinos">Destinos</a>
+        <a href="#contato">Advice</a>
+    </nav>
+
+    <main>
+        <div class="banner">Explore os vilarejos mais encantadores do mundo!</div>
+        
+        <section id="tripme">
+            <h2>TripMe</h2>
+            <p>Com a TripMe, você pode explorar os destinos mais incríveis ao redor do mundo e planejar a viagem dos seus sonhos com facilidade. Descubra lugares exóticos, experiências únicas e receba dicas personalizadas para tornar cada momento da sua jornada inesquecível. Prepare-se para embarcar na aventura da sua vida!</p>
+        </section>
+        
+
+        <section id="destinos">
+            <h2>Destinos</h2>
+            <p>Temos mais de 50 destinos disponíveis para sua viagem!</p>
+        
+            <ul class="destinos-list">
+                
+                <li class="destino-item">
+                    <img src="https://images.pexels.com/photos/1530259/pexels-photo-1530259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Destino 1">
+                    <h3>Paris</h3>
+                </li>
+                <li class="destino-item">
+                    <img src="https://images.pexels.com/photos/31091012/pexels-photo-31091012/free-photo-of-cena-de-rua-movimentada-em-shibuya-toquio.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Destino 1 - 2">
+                    <h3>Tóquio</h3>
+                </li>
+                <li class="destino-item">
+                    <img src="https://images.pexels.com/photos/161980/venice-italy-outdoor-scenic-161980.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Destino 1 - 3">
+                    <h3>Veneza</h3>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contato</h2>
+            <p>Entre em contato para discutirmos suas próximas férias.</p>
+            <p>Envie um e-mail para <a href="mailto:contato@tripme.com">contato@tripme.com</a> e responderemos o mais rápido possível!</p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 TripMe - Todos os direitos reservados
+    </footer>
+
+    
+    <button id="backToTop" onclick="scrollToTop()">Voltar ao Topo</button>
+
+    <script>
+        
+        window.onscroll = function() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                document.getElementById("backToTop").style.display = "block";
+            } else {
+                document.getElementById("backToTop").style.display = "none";
+            }
+        };
+
+        
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
