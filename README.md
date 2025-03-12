@@ -18,6 +18,6 @@ O projeto **TripMe** é uma landing page criada para o curso DEVstart. Através 
 
 1. Clone o repositório ou faça o download dos arquivos:
    ```bash
-   git clone https://github.com/seunomeusuario/viagens--landing-page.git
+   git clone https://github.com/AdeWyse/viagens--landing-page.git
 
  
