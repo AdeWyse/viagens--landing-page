@@ -14,10 +14,3 @@ O projeto **TripMe** é uma landing page criada para o curso DEVstart. Através 
 - **Navegação Interna**: Navegação interna entre as seções da página através de links
 - **Botão "Voltar ao Topo"**: Um botão fixo para facilitar o retorno à parte superior da página.
 
-## Como Rodar o Projeto
-
-1. Clone o repositório ou faça o download dos arquivos:
-   ```bash
-   git clone https://github.com/AdeWyse/viagens--landing-page.git
-
- 
